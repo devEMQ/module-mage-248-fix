@@ -14,4 +14,7 @@
                       xsi:type="object">Amasty\Mage248Fix\Model\App\PageCache\IdentifierForRead</argument>
         </arguments>
     </type>
+    <type name="Magento\PageCache\Model\App\Response\HttpPlugin">
+        <plugin name="Amasty_Mage248Fix::keepNotNullVary" type="Amasty\Mage248Fix\Plugin\PageCache\Model\App\Response\HttpPlugin\KeepNotNullVary"/>
+    </type>
 </config>
